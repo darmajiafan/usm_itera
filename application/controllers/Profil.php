@@ -21,8 +21,8 @@ class Profil extends CI_Controller {
 	{
 
 		$data=array(
-		  'page'=>'profil',
-		  'link'=>'profil',
+		  'page'=>'biodata',
+		  'link'=>'biodata',
 
 		);
 		$this->load->view('template/wrapper', $data);

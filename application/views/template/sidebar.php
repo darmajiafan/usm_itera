@@ -111,9 +111,9 @@
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
       <div class="bg-white py-2 collapse-inner rounded">
         <h6 class="collapse-header">Sub Menu Profil:</h6>
-          <a class="collapse-item" href="cards.html">Data Diri</a>
-          <a class="collapse-item" href="cards.html">Data Keluarga</a>
-          <a class="collapse-item" href="cards.html">Data Sekolah</a>
+          <a class="collapse-item" href="<?php echo base_url('profil')?>">Data Diri</a>
+          <a class="collapse-item" href="<?php echo base_url('keluarga')?>">Data Keluarga</a>
+          <a class="collapse-item" href="<?php echo base_url('sekolah')?>">Data Sekolah</a>
           <a class="collapse-item" href="cards.html">Pilih Prodi</a>
           <a class="collapse-item" href="cards.html">Upload Berkas</a>
         </div>
